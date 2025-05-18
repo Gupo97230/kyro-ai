@@ -1,30 +1,10 @@
 'use client';
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Home() {
   const [formSent, setFormSent] = useState(false);
   const [sending, setSending] = useState(false);
-  const [calendlyReady, setCalendlyReady] = useState(false);
-  const [calendlyError, setCalendlyError] = useState(false);
-
-  useEffect(() => {
-    if (typeof window !== 'undefined' && !document.getElementById('calendly-widget')) {
-      const script = document.createElement('script');
-      script.id = 'calendly-widget';
-      script.src = 'https://assets.calendly.com/assets/external/widget.js';
-      script.async = true;
-      script.onload = () => {
-        setCalendlyReady(true);
-        console.log('Calendly script chargé');
-        console.log('window.Calendly =', (window as any).Calendly);
-      };
-      document.body.appendChild(script);
-    } else if (typeof window !== 'undefined' && (window as any).Calendly) {
-      setCalendlyReady(true);
-      console.log('Calendly déjà présent');
-    }
-  }, []);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
