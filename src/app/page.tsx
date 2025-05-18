@@ -94,7 +94,7 @@ export default function Home() {
             <span className="text-red-500 text-xl">❌</span>Une charge mentale inutile pour vous ou votre personnel
           </li>
         </ul>
-        <blockquote className="italic text-[#1A75FF] text-center max-w-lg font-inter text-sm">“Depuis qu'on utilise Kyro AI, plus aucun client ne se plaint d'un appel sans réponse.”</blockquote>
+        <blockquote className="italic text-[#1A75FF] text-center max-w-lg font-inter text-sm">{"Depuis qu'on utilise Kyro AI, plus aucun client ne se plaint d'un appel sans réponse."}</blockquote>
       </section>
       {/* Solution */}
       <section id="solution" className="py-16 px-4 flex flex-col items-center justify-center w-full">
@@ -237,12 +237,12 @@ export default function Home() {
         <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-8 text-white">Ils ne veulent plus s'en passer.</h2>
         <div className="flex flex-col md:flex-row gap-8 w-full max-w-4xl justify-center">
           <div className="bg-[#232b3a] rounded-xl shadow p-6 flex-1 max-w-md text-white">
-            <p className="italic mb-2 text-[#B0B8C1]">"Avant Kyro AI, je ratais au moins 5 clients par semaine. Maintenant, tout est géré même quand je suis fermé. C'est un soulagement."</p>
-            <div className="font-bold text-[#1A75FF]">— Anaïs, gérante de salon</div>
+            <p className="italic mb-2 text-[#B0B8C1]">{"Avant Kyro AI, je ratais au moins 5 clients par semaine. Maintenant, tout est géré même quand je suis fermé. C'est un soulagement."}</p>
+            <div className="font-bold text-[#1A75FF]">{"— Anaïs, gérante de salon"}</div>
           </div>
           <div className="bg-[#232b3a] rounded-xl shadow p-6 flex-1 max-w-md text-white">
-            <p className="italic mb-2 text-[#B0B8C1]">"Je n'ai plus besoin d'un second poste au secrétariat. L'IA fait le job, sans pause ni erreur."</p>
-            <div className="font-bold text-[#1A75FF]">— Dr Benamara, généraliste</div>
+            <p className="italic mb-2 text-[#B0B8C1]">{"Je n'ai plus besoin d'un second poste au secrétariat. L'IA fait le job, sans pause ni erreur."}</p>
+            <div className="font-bold text-[#1A75FF]">{"— Dr Benamara, généraliste"}</div>
           </div>
         </div>
       </section>
