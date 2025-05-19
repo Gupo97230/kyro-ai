@@ -158,7 +158,7 @@ export default function Home() {
                 if (el) el.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              Ce pack m'intéresse
+              Ce pack m&apos;intéresse
             </button>
           </div>
           {/* Kyro Full */}
@@ -214,15 +214,15 @@ export default function Home() {
       </section>
       {/* Témoignages */}
       <section id="temoignages" className="py-16 px-4 flex flex-col items-center justify-center w-full">
-        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-8 text-white">{"Ils ne veulent plus s'en passer."}</h2>
+        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-8 text-white">Ils ne veulent plus s&apos;en passer.</h2>
         <div className="flex flex-col md:flex-row gap-8 w-full max-w-4xl justify-center">
           <div className="bg-[#232b3a] rounded-xl shadow p-6 flex-1 max-w-md text-white">
             <p className="italic mb-2 text-[#B0B8C1]">{"Avant Kyro AI, je ratais au moins 5 clients par semaine. Maintenant, tout est géré même quand je suis fermé. C'est un soulagement."}</p>
             <div className="font-bold text-[#1A75FF]">{"— Anaïs, gérante de salon"}</div>
           </div>
           <div className="bg-[#232b3a] rounded-xl shadow p-6 flex-1 max-w-md text-white">
-            <p className="italic mb-2 text-[#B0B8C1]">{"Je n'ai plus besoin d'un second poste au secrétariat. L'IA fait le job, sans pause ni erreur."}</p>
-            <div className="font-bold text-[#1A75FF]">{"— Dr Benamara, généraliste"}</div>
+            <p className="italic mb-2 text-[#B0B8C1]">Je n&apos;ai plus besoin d&apos;un second poste au secrétariat. L&apos;IA fait le job, sans pause ni erreur.</p>
+            <div className="font-bold text-[#1A75FF]">— Dr Benamara, généraliste</div>
           </div>
         </div>
       </section>
