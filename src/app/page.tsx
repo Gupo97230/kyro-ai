@@ -53,32 +53,32 @@ export default function Home() {
       </section>
       {/* Problème */}
       <section id="probleme" className="py-16 px-4 flex flex-col items-center justify-center w-full">
-        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-6 text-white">{"Chaque appel manqué, c'est un client de perdu."}</h2>
+        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-6 text-white">Chaque appel manqué, c'est un client de perdu.</h2>
         <div className="max-w-2xl text-center text-base sm:text-lg font-inter text-[#B0B8C1] mb-6">
-          <p className="mb-2">{"Vous êtes occupé, en rendez-vous, ou simplement indisponible. Pendant ce temps, votre téléphone sonne… et vos clients raccrochent."}</p>
-          <p className="mb-2">{"Certains ne rappelleront jamais."}</p>
-          <p className="mb-2">{"Vous perdez du chiffre d'affaires, et votre image en pâtit."}</p>
-          <p className="mb-2">{"Chez Kyro AI, on a décidé de régler ça une bonne fois pour toutes."}</p>
+          <p className="mb-2">Vous êtes occupé, en rendez-vous, ou simplement indisponible. Pendant ce temps, votre téléphone sonne… et vos clients raccrochent.</p>
+          <p className="mb-2">Certains ne rappelleront jamais.</p>
+          <p className="mb-2">Vous perdez du chiffre d'affaires, et votre image en pâtit.</p>
+          <p className="mb-2">Chez Kyro AI, on a décidé de régler ça une bonne fois pour toutes.</p>
         </div>
         <ul className="max-w-xl text-left text-base sm:text-lg font-inter space-y-2 mb-6">
           <li className="flex items-center gap-2 text-[#B0B8C1]">
-            <span className="text-red-500 text-xl">❌</span>{"Trop d'appels pendant les horaires chargés"}
+            <span className="text-red-500 text-xl">❌</span>Trop d'appels pendant les horaires chargés
           </li>
           <li className="flex items-center gap-2 text-[#B0B8C1]">
-            <span className="text-red-500 text-xl">❌</span>{"Aucun accueil quand vous êtes fermé"}
+            <span className="text-red-500 text-xl">❌</span>Aucun accueil quand vous êtes fermé
           </li>
           <li className="flex items-center gap-2 text-[#B0B8C1]">
-            <span className="text-red-500 text-xl">❌</span>{"Des clients frustrés qui vont voir ailleurs"}
+            <span className="text-red-500 text-xl">❌</span>Des clients frustrés qui vont voir ailleurs
           </li>
           <li className="flex items-center gap-2 text-[#B0B8C1]">
-            <span className="text-red-500 text-xl">❌</span>{"Une charge mentale inutile pour vous ou votre personnel"}
+            <span className="text-red-500 text-xl">❌</span>Une charge mentale inutile pour vous ou votre personnel
           </li>
         </ul>
-        <blockquote className="italic text-[#1A75FF] text-center max-w-lg font-inter text-sm">{"Depuis qu'on utilise Kyro AI, plus aucun client ne se plaint d'un appel sans réponse."}</blockquote>
+        <blockquote className="italic text-[#1A75FF] text-center max-w-lg font-inter text-sm">Depuis qu'on utilise Kyro AI, plus aucun client ne se plaint d'un appel sans réponse.</blockquote>
       </section>
       {/* Solution */}
       <section id="solution" className="py-16 px-4 flex flex-col items-center justify-center w-full">
-        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-6 text-white">{"Kyro AI répond à votre place. Avec la voix, la précision et la constance d'un vrai assistant."}</h2>
+        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-6 text-white">Kyro AI répond à votre place. Avec la voix, la précision et la constance d'un vrai assistant.</h2>
         <div className="max-w-2xl text-center text-base sm:text-lg font-inter text-[#B0B8C1] mb-6">
           <p className="mb-4">Kyro AI est un agent vocal intelligent qui décroche vos appels, comprend les demandes de vos clients ou patients, et y répond naturellement, à toute heure.</p>
           <p className="mb-4">Il peut prendre un rendez-vous, annuler une séance, transmettre une info ou filtrer les urgences… le tout automatiquement.</p>
@@ -217,8 +217,8 @@ export default function Home() {
         <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-8 text-white">Ils ne veulent plus s&apos;en passer.</h2>
         <div className="flex flex-col md:flex-row gap-8 w-full max-w-4xl justify-center">
           <div className="bg-[#232b3a] rounded-xl shadow p-6 flex-1 max-w-md text-white">
-            <p className="italic mb-2 text-[#B0B8C1]">{"Avant Kyro AI, je ratais au moins 5 clients par semaine. Maintenant, tout est géré même quand je suis fermé. C'est un soulagement."}</p>
-            <div className="font-bold text-[#1A75FF]">{"— Anaïs, gérante de salon"}</div>
+            <p className="italic mb-2 text-[#B0B8C1]">Avant Kyro AI, je ratais au moins 5 clients par semaine. Maintenant, tout est géré même quand je suis fermé. C'est un soulagement.</p>
+            <div className="font-bold text-[#1A75FF]">— Anaïs, gérante de salon</div>
           </div>
           <div className="bg-[#232b3a] rounded-xl shadow p-6 flex-1 max-w-md text-white">
             <p className="italic mb-2 text-[#B0B8C1]">Je n&apos;ai plus besoin d&apos;un second poste au secrétariat. L&apos;IA fait le job, sans pause ni erreur.</p>
@@ -264,7 +264,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-[#1D2532] text-white py-8 px-4 flex flex-col items-center justify-center mt-auto w-full">
         <div className="mb-4 text-center text-white/90 text-sm max-w-xl font-inter">
-          {"Développé par un entrepreneur français passionné de technologie et de service client. Basé à Mulhouse, Kyro AI s'adresse aux pros qui veulent automatiser sans déshumaniser."}
+          Développé par un entrepreneur français passionné de technologie et de service client. Basé à Mulhouse, Kyro AI s'adresse aux pros qui veulent automatiser sans déshumaniser.
         </div>
         <Image
           src="/logo-kyroai.png"
