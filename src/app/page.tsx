@@ -78,7 +78,7 @@ export default function Home() {
       </section>
       {/* Solution */}
       <section id="solution" className="py-16 px-4 flex flex-col items-center justify-center w-full">
-        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-6 text-white">Kyro AI répond à votre place. Avec la voix, la précision et la constance d'un vrai assistant.</h2>
+        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-6 text-white">{"Kyro AI répond à votre place. Avec la voix, la précision et la constance d'un vrai assistant."}</h2>
         <div className="max-w-2xl text-center text-base sm:text-lg font-inter text-[#B0B8C1] mb-6">
           <p className="mb-4">Kyro AI est un agent vocal intelligent qui décroche vos appels, comprend les demandes de vos clients ou patients, et y répond naturellement, à toute heure.</p>
           <p className="mb-4">Il peut prendre un rendez-vous, annuler une séance, transmettre une info ou filtrer les urgences… le tout automatiquement.</p>
@@ -214,7 +214,7 @@ export default function Home() {
       </section>
       {/* Témoignages */}
       <section id="temoignages" className="py-16 px-4 flex flex-col items-center justify-center w-full">
-        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-8 text-white">Ils ne veulent plus s'en passer.</h2>
+        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-8 text-white">{"Ils ne veulent plus s'en passer."}</h2>
         <div className="flex flex-col md:flex-row gap-8 w-full max-w-4xl justify-center">
           <div className="bg-[#232b3a] rounded-xl shadow p-6 flex-1 max-w-md text-white">
             <p className="italic mb-2 text-[#B0B8C1]">{"Avant Kyro AI, je ratais au moins 5 clients par semaine. Maintenant, tout est géré même quand je suis fermé. C'est un soulagement."}</p>
@@ -264,7 +264,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-[#1D2532] text-white py-8 px-4 flex flex-col items-center justify-center mt-auto w-full">
         <div className="mb-4 text-center text-white/90 text-sm max-w-xl font-inter">
-          Développé par un entrepreneur français passionné de technologie et de service client. Basé à Mulhouse, Kyro AI s'adresse aux pros qui veulent automatiser sans déshumaniser.
+          {"Développé par un entrepreneur français passionné de technologie et de service client. Basé à Mulhouse, Kyro AI s'adresse aux pros qui veulent automatiser sans déshumaniser."}
         </div>
         <Image
           src="/logo-kyroai.png"
