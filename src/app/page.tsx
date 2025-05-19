@@ -53,25 +53,25 @@ export default function Home() {
       </section>
       {/* Problème */}
       <section id="probleme" className="py-16 px-4 flex flex-col items-center justify-center w-full">
-        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-6 text-white">Chaque appel manqué, c'est un client de perdu.</h2>
+        <h2 className="text-2xl sm:text-4xl font-extrabold font-montserrat text-center mb-6 text-white">{"Chaque appel manqué, c'est un client de perdu."}</h2>
         <div className="max-w-2xl text-center text-base sm:text-lg font-inter text-[#B0B8C1] mb-6">
-          <p className="mb-2">Vous êtes occupé, en rendez-vous, ou simplement indisponible. Pendant ce temps, votre téléphone sonne… et vos clients raccrochent.</p>
-          <p className="mb-2">Certains ne rappelleront jamais.</p>
-          <p className="mb-2">Vous perdez du chiffre d'affaires, et votre image en pâtit.</p>
-          <p className="mb-2">Chez Kyro AI, on a décidé de régler ça une bonne fois pour toutes.</p>
+          <p className="mb-2">{"Vous êtes occupé, en rendez-vous, ou simplement indisponible. Pendant ce temps, votre téléphone sonne… et vos clients raccrochent."}</p>
+          <p className="mb-2">{"Certains ne rappelleront jamais."}</p>
+          <p className="mb-2">{"Vous perdez du chiffre d'affaires, et votre image en pâtit."}</p>
+          <p className="mb-2">{"Chez Kyro AI, on a décidé de régler ça une bonne fois pour toutes."}</p>
         </div>
         <ul className="max-w-xl text-left text-base sm:text-lg font-inter space-y-2 mb-6">
           <li className="flex items-center gap-2 text-[#B0B8C1]">
-            <span className="text-red-500 text-xl">❌</span>Trop d'appels pendant les horaires chargés
+            <span className="text-red-500 text-xl">❌</span>{"Trop d'appels pendant les horaires chargés"}
           </li>
           <li className="flex items-center gap-2 text-[#B0B8C1]">
-            <span className="text-red-500 text-xl">❌</span>Aucun accueil quand vous êtes fermé
+            <span className="text-red-500 text-xl">❌</span>{"Aucun accueil quand vous êtes fermé"}
           </li>
           <li className="flex items-center gap-2 text-[#B0B8C1]">
-            <span className="text-red-500 text-xl">❌</span>Des clients frustrés qui vont voir ailleurs
+            <span className="text-red-500 text-xl">❌</span>{"Des clients frustrés qui vont voir ailleurs"}
           </li>
           <li className="flex items-center gap-2 text-[#B0B8C1]">
-            <span className="text-red-500 text-xl">❌</span>Une charge mentale inutile pour vous ou votre personnel
+            <span className="text-red-500 text-xl">❌</span>{"Une charge mentale inutile pour vous ou votre personnel"}
           </li>
         </ul>
         <blockquote className="italic text-[#1A75FF] text-center max-w-lg font-inter text-sm">{"Depuis qu'on utilise Kyro AI, plus aucun client ne se plaint d'un appel sans réponse."}</blockquote>
